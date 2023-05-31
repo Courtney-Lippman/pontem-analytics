@@ -1,0 +1,154 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Custom code goes here
+.gradient-11 {
+    z-index: 1;
+}
+
+.heading {
+    /* UI Properties */
+    background: transparent url('../assets/AdobeStock_145919411.png') 0% 0% no-repeat padding-box;
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2160px;
+    z-index: 0;
+    // position: relative;
+}
+
+.logo {
+    /* Layout Properties */
+    top: 406px;
+    left: 734px;
+    width: 452px;
+    height: 248px;
+    /* UI Properties */
+    background: transparent url('../assets/Group\ 50.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 2;
+    // position: absolute;
+}
+
+.logo-text-line {
+    /* Layout Properties */
+    top: 866px;
+    left: 0.5px;
+    width: 1217px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid var(--unnamed-color-dcffe8);
+    border: 2px solid #DCFFE8;
+    opacity: 1;
+    z-index: 2;
+    // position: absolute;
+}
+
+.logo-text {
+    top: 848px;
+    left: 1240px;
+    width: 520px;
+    height: 108px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/36px var(--unnamed-font-family-axia);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-dcffe8);
+    text-align: left;
+    font: normal normal normal 30px/36px Axia;
+    letter-spacing: 0px;
+    color: #DCFFE8;
+    opacity: 1;
+    z-index: 2;
+    // position: absolute;
+}
+
+.connection {
+    /* Layout Properties */
+    top: 1157px;
+    left: 680px;
+    width: 560px;
+    height: 926px;
+    /* UI Properties */
+    opacity: 1;
+    z-index: 2;
+    // position: absolute;
+}
+
+h1 {
+    /* Layout Properties */
+    top: 1585px;
+    left: 223px;
+    width: 1474px;
+    height: 70px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 100px/140px Corporate S;
+    color: var(--unnamed-color-44fff5);
+    text-align: center;
+    font: normal normal bold 100px/140px Corporate S;
+    letter-spacing: 32px;
+    color: #44FFF5;
+    opacity: 1;
+    z-index: 3;
+    // position: absolute;
+}
+
+
+.mission {
+    /* UI Properties */
+    background: transparent radial-gradient(closest-side at 0% 100%, var(--unnamed-color-000000) 0%, var(--unnamed-color-001e33) 100%) 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(closest-side at 0% 100%, #000000 0%, #001E33 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* Layout Properties */
+    top: 2160px;
+    left: 0px;
+    width: 1921px;
+    height: 947px;
+    z-index: 0;
+    // position: absolute;
+}
+
+.mission-logo {
+    /* Layout Properties */
+    top: 2362px;
+    left: 186px;
+    width: 74px;
+    height: 100px;
+    /* UI Properties */
+    opacity: 1;
+    z-index: 1;
+    // position: absolute;
+}
+
+.mission-logo-p {
+    
+}
+
+.verticals {
+    /* Layout Properties */
+    top: 3107px;
+    left: 0px;
+    width: 1920px;
+    height: 1056px;
+    /* UI Properties */
+    background: transparent url('../assets/thisisengineering-raeng-GzDrm7SYQ0g-unsplash-edit.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.footer {
+    /* Layout Properties */
+    top: 4163px;
+    left: 0px;
+    width: 1921px;
+    height: 730px;
+    position: relative;
+    /* UI Properties */
+    background: var(--unnamed-color-001e33) 0% 0% no-repeat padding-box;
+    background: #001E33 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
