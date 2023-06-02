@@ -1,31 +1,4 @@
-// Variable overrides first
-$primary: #900;
-$enable-shadows: true;
-$prefix: "mo-";
-
-// Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-//Custom code goes here
-* {
-    box-sizing: unset;
-    overflow-x: hidden;
-}
-
-body {
-    width: 100%;
-    box-sizing: unset;
-    overflow-x: hidden;
-}
-
-.container-fluid {
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-}
-
-
 
 .section-1-wrapper {
     width: 100vw;
@@ -127,8 +100,9 @@ h1 {
     opacity: 1;
 }
 
-.pontem-logo-p-wrapper {
-    width: 40vh;
+#Group_50 {
+    width: 5vh;
+    height: 5vh;
 }
 
 .mission-line {
@@ -142,9 +116,35 @@ h1 {
     width: 27vw;
     letter-spacing: 0px;
     text-align: left;
-    font: normal normal normal 2vw Axia;
+    font: normal normal normal 1.5vw Axia;
     color: #FFFFFF;
     opacity: 1;
+    margin-bottom: 0px;
+}
+
+.card-1 {
+    background: #FFDC00 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 412px;
+    height: 627px;
+}
+
+.card-2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 412px;
+    height: 627px;
+}
+
+.card-3 {
+    background: #44FFF5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 412px;
+    height: 627px;
+}
+
+.card-title {
+    font-size: 1rem;
 }
 
 .bg-3-container {
