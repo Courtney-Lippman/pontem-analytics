@@ -19,7 +19,6 @@ $enable-responsive-font-sizes: true;
 .bg-1 {
 background: transparent url('../assets/AdobeStock_145919411.png') 0% 0% no-repeat padding-box;
 background-size: cover;
-height: 200vh;
 width: 100vw;
 }
 
@@ -46,24 +45,18 @@ width: 100vw;
 
 //First Content Section
 .content-1 {
-    height: 200vh;
-    z-index: 2;
     top: 0%;
-    
-    img {
-        width: 30vw;
-    }
 }
 
 .line-text {
-    margin: 15vh 0vw;
+    margin: 15vmin 0vw;
 }
 
 .line-text .line {
         width: 70vw;
         border: 2px solid #DCFFE8;
         height: 0%;
-        margin-top: 1vh;
+        margin-top: 1vmin;
         margin-right: 2vw;
 }
 
@@ -79,18 +72,18 @@ width: 100vw;
 
 .circle-text {
     width: 29vw;
-    margin: 15vh 3vw;
 }
 
 
 .circle-text p {
     text-align: center;
     font: normal normal bold 5vw/13vh Corporate S;
-    letter-spacing: 1.7vw;
+    letter-spacing: 1.7vmin;
     color: #44FFF5;
 }
 
 //Second Content Section
+
 .mision .line {
     height: 0px;
     width: 47vw;
