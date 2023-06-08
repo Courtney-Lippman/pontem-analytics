@@ -12076,6 +12076,10 @@ html, body {
   top: 0%;
 }
 
+.pontem-logo-wrapper {
+  width: 25vw;
+}
+
 .line-text {
   margin: 15vmin 0vw;
 }
@@ -12099,7 +12103,7 @@ html, body {
 }
 
 .circle-text {
-  width: 29vw;
+  width: 30vw;
 }
 
 .circle-text p {
